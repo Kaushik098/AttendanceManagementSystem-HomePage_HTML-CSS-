@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>    
+<meta charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Attendance Management System</title>  
+<link rel = "stylesheet" href = "AMS_Register.css"> 
+</head>
+
+<body>
+   <header>
+   <div class="jumborton">
+        <h2> Attendance Management System </h2> 
+    </div>
+   </header> 
+   
+   <div class = "container">
+	<form action = "UserEntry.html">
+		      <fieldset style="margin-top: 10px; border-radius: 30px;">
+                  <legend> Register : </legend>
+                       <table id = "RegisterTable">
+                         <tr>
+                         <td> <label class = "labelclass"> Full Name </label> </td>
+                         <td> <input type = "text" id = "fname" name = "fullname" placeholder = "Your Name..."> </td>
+                         <br>
+                        </tr>
+                        
+                        <tr> 
+                         <td> <label class = "labelclass"> Username </label> </td>
+                         <td> <input type = "text" id = "username" name = "username" placeholder = "Your Name..."> </td>
+                         <br>
+                        </tr>
+                        
+                        <tr>
+                        <td> <label class = "labelclass"> Password </label> </td>
+                        <td> <input type = "password" id = "pwd" name = "pwd" placeholder = "Your Name..."> </td>
+                        <br> </tr>
+                        
+                        
+                        <tr> <td> <label class = "labelclass"> Date of Birth </label> </td>
+                        <td> <input type = "date" id = "dob" name = "dateOfBirth" placeholder = "Your Name..."> </td>
+                        <br> </tr>
+                        
+                        <tr>
+                        <td> <label class = "labelclass"> Gender </label> </td>
+                        <td> <input type = "radio" id = "male" name = "gen" value = "Male"> Male <br> 
+                        <input type = "radio" id = "female" name = "gen" value = "Female"> Female <br>
+                        <input type = "radio" id = "other" name = "gen" value = "Others">  Others <br>
+                        </td> 
+                        <br> </tr>
+
+                        <tr>
+                         <td> <label class = "labelclass"> Address </label> </td>
+                         <td> <textarea id = "address" name = "address" placeholder = "Your Address..." rows="4" cols="80"> </textarea> </td>
+                         <br> </tr>
+                       </table>	 
+
+                       <input type = "submit" name = "Submit" value = "Submit">
+                       <br>
+			   </fieldset>
+       
+   </div>
+
+   <footer>
+    <table id="tb">
+    <tr>
+        <td> <p> Contact us : 9998787091 </p> </td>
+        <td> <a href = "ams9012@gmail.com"> Email: ams9012@gmail.com </p> </td>
+    </tr> 
+    </table>
+   </footer>
+
+   </body>
+   </html>

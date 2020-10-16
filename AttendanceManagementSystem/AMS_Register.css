@@ -1,0 +1,61 @@
+.jumborton {
+	font-style:italic;
+	background-color: mediumseagreen;
+	padding-left: 60px;
+    padding-top: 20px;
+	padding-bottom:20px;
+	color: white;
+}
+#tb {    
+    border-style: none;
+    width: 100%;
+    text-align: center;
+    background-color: mediumseagreen;
+    color: white;
+    font-style: italic;
+}
+.container {
+    border-bottom-color: mediumseagreen;
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-left:200px;
+    margin-right:200px;
+ }
+#RegisterTable, td {
+         padding: 20px;
+         padding-bottom: 0px;
+ }
+
+	input[type=submit] {
+      background-color: mediumseagreen;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+	  margin-top: 10px;
+    }
+/*
+.labelclass{
+    padding-bottom : 20px;
+    padding-right : 200px;
+    padding-top: 10px;
+}
+
+.labelclassdate{
+   padding-bottom : 20px;
+   padding-right : 183px;
+   padding-top: 10px;
+}
+
+.labelclassgender{
+  padding-bottom : 20px;
+   padding-right : 200px;
+   padding-top: 10px;
+}
+
+.labelclassaddress{
+ padding-right: 200px;
+ padding-bottom:20px;
+}	*/
